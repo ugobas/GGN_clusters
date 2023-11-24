@@ -11,12 +11,16 @@ For an input genome in FASTA format, the program GGN_clusters prints in bed
 files all clusters containing at least <GGNmin> triplets of nucleotides GGN,
 where N is any nucleotide, separated by at most L intermediate nucleotides.
 
+The file GGN_clusters.zip contains sample bed files with coordinates of GGN clusters in
+model genomes.
+
 Furthermore, for all possible dinucleotides XYN, where N is any nucleotide, it
 computes the propensity that there are two XYN triplets at distance d and the
 propensity that the two nucleotides N are identical, and it prints them in text
 files Cond_prob_XYN.dat
 
 ===============================================
+
 INSTALL:
 
 Download GGN_clusters_source.zip and run the following:
@@ -28,8 +32,9 @@ make
 cp GGN_clusters (your path of binary files)
 
 ====================================================
+
 USAGE: GGN_clusters Input_GGN_clusters
-====================================================
+
 FORMAT of the configuration file Input_GGN_clusters:
 
 LOOP=<>    ! Max. distance between GGN triplets
