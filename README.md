@@ -16,9 +16,12 @@ files Cond_prob_XYN.dat
 
 INSTALL:
 Download GGN_clusters_source.zip and run the following:
->unzip GGN_clusters_source.zip
->make
->cp GGN_clusters <your path of binary files>
+
+unzip GGN_clusters_source.zip
+
+make
+
+cp GGN_clusters <your path of binary files>
 
 USAGE: GGN_clusters Input_GGN_clusters
 FORMAT of the configuration file Input_GGN_clusters:
