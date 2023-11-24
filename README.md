@@ -24,7 +24,7 @@ unzip GGN_clusters_source.zip
 
 make
 
-cp GGN_clusters <your path of binary files>
+cp GGN_clusters (your path of binary files)
 
 
 USAGE: GGN_clusters Input_GGN_clusters
